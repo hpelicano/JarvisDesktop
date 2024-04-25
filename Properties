@@ -1,0 +1,44 @@
+#-------------------------------------------------------------------------------
+# Directory Configuration:
+#-------------------------------------------------------------------------------
+directory.root=C:\\\\Jarvis
+directory.root.config=C:\\\\Jarvis\\\\Config
+directory.root.Enform=C:\\\\Jarvis\\\\Enform
+directory.root.Audit=C:\\\\Jarvis\\\\Audit
+directory.root.Libs=C:\\\\Jarvis\\\\Libs
+directory.root.Libs.ddl=C:\\\\Jarvis\\\\Libs\\\\ddl
+directory.root.Libs.tkn=C:\\\\Jarvis\\\\Libs\\\\tkn
+directory.root.Test=C:\\\\Jarvis\\\\Test
+directory.root.Docs=C:\\\\Jarvis\\\\Docs
+
+#-------------------------------------------------------------------------------
+# Environment Configuration:
+#-------------------------------------------------------------------------------
+config_env.desarrollo.user=superdvlp
+config_env.desarrollo.pass=Cuba1234
+config_env.desarrollo.dns=NonStopAP2050242.1dc.com
+
+config_env.homologaciones.user=""
+config_env.homologaciones.pass=""
+config_env.homologaciones.dns=""
+
+config_env.producion.user=""
+config_env.producion.pass=""
+config_env.producion.dns=""
+
+config_port.ssh=22
+config_ports.ddls=7000
+config_ports.audit=7001
+config_ports.files=7002
+config_ports.paser=7003
+config_ports.enform=7004
+config_ports.tracker=7005
+config_ports.database=7006
+
+#-------------------------------------------------------------------------------
+# Library Configuration:
+#-------------------------------------------------------------------------------
+library.Volumen=<none>,BASEL,DATA26,DATA17
+library.SubVol=<none>,CSMADDL,CSMBDDL,CSMBPDDL,CSMFDDL,CSMOKDDL,CSMPDDL
+library.struct=<none>,PSTM,CAF,IDF,PRD,CPF
+
